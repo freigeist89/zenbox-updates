@@ -5,5 +5,29 @@
     <link>https://freigeist89.github.io/zenbox-updates/appcast.xml</link>
     <description>Updates für Zenbox</description>
     <language>de</language>
+    <item>
+      <title>Version 1.0</title>
+      <pubDate>Tue, 21 Jul 2026 16:51:44 +0200</pubDate>
+      <sparkle:version>1</sparkle:version>
+      <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h3>Zenbox für Mac 1.0</h3>
+<p>Die erste Version von Zenbox für den Mac — dein ruhiger Begleiter für fokussierte Zeit.</p>
+<ul>
+  <li><strong>Fokus-Sessions</strong> mit Sperrlisten für Apps und Websites</li>
+  <li><strong>Routinen</strong>, die eigenständig blocken: Zeitpläne, WLAN-Zonen, Standorte und Kalender-Termine</li>
+  <li><strong>Limits</strong> für Öffnungen und Zeit pro App oder Seite</li>
+  <li><strong>Erlauben-Modus</strong>: alles sperren außer dem, was du bewusst zulässt</li>
+  <li><strong>Zenbox-Scan</strong>: eine Session mit deiner physischen Zenbox beenden</li>
+  <li>Notfall-Entsperrung, Passwortschutz und Achtsamkeits-Check als Auswege</li>
+</ul>
+<p>Vielen Dank, dass du dabei bist.</p>
+      ]]></description>
+      <enclosure url="https://github.com/freigeist89/zenbox-updates/releases/download/v1.0/Zenbox-1.0.zip"
+                 length="64009908"
+                 type="application/octet-stream"
+                 sparkle:edSignature="jQ06FjpFMviVCh4eRX4wZWd+VFP2Znfg26ykYdcDlduE9Fhfz5Xjd3Br51iGs4hhWlDAfDOIVrzmGEIRDPjeBw==" />
+    </item>
   </channel>
 </rss>
