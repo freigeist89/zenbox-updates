@@ -6,28 +6,50 @@
     <description>Updates für Zenbox</description>
     <language>de</language>
     <item>
-      <title>Version 1.0</title>
-      <pubDate>Tue, 21 Jul 2026 16:51:44 +0200</pubDate>
-      <sparkle:version>1</sparkle:version>
-      <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
+      <title>Version 1.1</title>
+      <pubDate>Fri, 24 Jul 2026 10:29:40 +0200</pubDate>
+      <sparkle:version>2</sparkle:version>
+      <sparkle:shortVersionString>1.1</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
-<h3>Zenbox für Mac 1.0</h3>
-<p>Die erste Version von Zenbox für den Mac — dein ruhiger Begleiter für fokussierte Zeit.</p>
+<h3>Neu in Version 1.1</h3>
+
+<p><strong>Wochenrückblick</strong></p>
 <ul>
-  <li><strong>Fokus-Sessions</strong> mit Sperrlisten für Apps und Websites</li>
-  <li><strong>Routinen</strong>, die eigenständig blocken: Zeitpläne, WLAN-Zonen, Standorte und Kalender-Termine</li>
-  <li><strong>Limits</strong> für Öffnungen und Zeit pro App oder Seite</li>
-  <li><strong>Erlauben-Modus</strong>: alles sperren außer dem, was du bewusst zulässt</li>
-  <li><strong>Zenbox-Scan</strong>: eine Session mit deiner physischen Zenbox beenden</li>
-  <li>Notfall-Entsperrung, Passwortschutz und Achtsamkeits-Check als Auswege</li>
+  <li>Die Einblicke zeigen jetzt oben deine Woche: Fokuszeit, Sessions, aktive Tage und dein bester Tag — mit Vergleich zur Vorwoche.</li>
+  <li>Sonntagabend kommt dazu eine sanfte Mitteilung. In den Einstellungen abschaltbar.</li>
 </ul>
-<p>Vielen Dank, dass du dabei bist.</p>
+
+<p><strong>Chat-Status bei Fokus</strong></p>
+<ul>
+  <li>Zenbox kann deinen Slack- oder Teams-Status setzen, solange es blockt („Fokus bis 15:00“), und ihn danach zurücknehmen. Die passenden Kurzbefehle legt Zenbox für dich an.</li>
+</ul>
+
+<p><strong>Schließen-Schutz</strong></p>
+<ul>
+  <li>Solange etwas zu erzwingen ist — Session, Limit, Zeitplan, WLAN-Zone, Standort oder Kalender-Termin — startet Zenbox nach dem Schließen von selbst neu. Standardmäßig an, in den Einstellungen abschaltbar.</li>
+</ul>
+
+<p><strong>Behoben</strong></p>
+<ul>
+  <li>Der Zenbox-Scan ließ sich nicht freigeben, weil Zenbox gar nicht erst in den Kamera-Einstellungen auftauchte. Das ist repariert.</li>
+  <li>Ein Absturz beim Start ist behoben.</li>
+</ul>
+
+<p><strong>Feinschliff</strong></p>
+<ul>
+  <li>Meistbesuchte Websites zeigen jetzt ihr echtes Logo statt eines Platzhalters.</li>
+  <li>Neue Onboarding-Seite: Alles bleibt auf deinem Gerät. Durchblättern jetzt auch mit den Pfeiltasten.</li>
+  <li>Ganze Website-Kategorien lassen sich bei Limits mit einem Klick hinzufügen.</li>
+  <li>Ein erreichtes Limit wirkt ruhiger — nur noch die zwei Auswege, ohne roten Kasten.</li>
+  <li>Zeitpläne zeigen während einer Pause den Countdown.</li>
+  <li>Größere Überschriften und viele kleine Korrekturen an der Oberfläche.</li>
+</ul>
       ]]></description>
-      <enclosure url="https://github.com/freigeist89/zenbox-updates/releases/download/v1.0/Zenbox-1.0.zip"
-                 length="64009908"
+      <enclosure url="https://github.com/freigeist89/zenbox-updates/releases/download/v1.1/Zenbox-1.1.zip"
+                 length="64104636"
                  type="application/octet-stream"
-                 sparkle:edSignature="jQ06FjpFMviVCh4eRX4wZWd+VFP2Znfg26ykYdcDlduE9Fhfz5Xjd3Br51iGs4hhWlDAfDOIVrzmGEIRDPjeBw==" />
+                 sparkle:edSignature="qG5ZD3RFsyh9Dy5XGhRpg2XROiv2qN0LNokQ7I3rKvRf7rR7MeQ4JSca6UbZaQkUHeslkyK/lrSlLSLmJfmPAg==" />
     </item>
   </channel>
 </rss>
