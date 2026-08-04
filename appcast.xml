@@ -6,54 +6,65 @@
     <description>Updates für Zenbox</description>
     <language>de</language>
     <item>
-      <title>Version 1.2</title>
-      <pubDate>Sat, 01 Aug 2026 08:19:27 +0200</pubDate>
-      <sparkle:version>3</sparkle:version>
-      <sparkle:shortVersionString>1.2</sparkle:shortVersionString>
+      <title>Version 1.3</title>
+      <pubDate>Tue, 04 Aug 2026 06:57:40 +0200</pubDate>
+      <sparkle:version>4</sparkle:version>
+      <sparkle:shortVersionString>1.3</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
-<h3>Neu in Version 1.2</h3>
+<h3>Neu in Version 1.3</h3>
 
-<p><strong>Abend-Modus</strong></p>
+<p><strong>Deine Zenbox startet Sessions</strong></p>
 <ul>
- <li>Zenbox blockt jetzt auf Wunsch automatisch am Abend: erst Wind-Down zum Runterkommen (auf Wunsch mit einer milderen Sperrliste), dann Schlafenszeit bis zur Weckzeit am Morgen. Über Mitternacht hinweg.</li>
- <li>Der Abend zählt zum Tag, an dem er beginnt: Freitagabend blockt bis Samstagmorgen. „Anhalten“ gilt für eine Nacht, am nächsten Abend greift der Modus wieder.</li>
+  <li>Der Start-Knopf führt jetzt auf Wunsch durch den Scan deiner physischen Zenbox: Puck vor die Kamera, Session läuft. Das gleiche Ritual wie beim Beenden.</li>
+  <li>In den Einstellungen unter „Entsperren“ abschaltbar, wenn du lieber direkt startest.</li>
 </ul>
 
-<p><strong>Schutz-Check</strong></p>
+<p><strong>Ehrliche Fokuszeit</strong></p>
 <ul>
- <li>Zuoberst in den Einstellungen zeigt Zenbox jetzt auf einen Blick, ob dein Schutz wirklich greift: Kamera, Browser-Steuerung, Mitteilungen, Kalender, Standort, Schließen-Schutz und ausgeschaltete Limits. Jede Zeile mit einem Reparatur-Knopf.</li>
- <li>Fehlen am Ende des Onboardings noch Freigaben, führt ein Klick direkt dorthin.</li>
+  <li>Bildschirm gesperrt oder länger als zwei Minuten untätig: Die Fokuszeit pausiert und dein Ziel schiebt sich nach hinten. Die Sperren bleiben natürlich aktiv.</li>
+  <li>So messen Wochenziel, Serie und Verlauf echte Arbeit statt Anwesenheit. Während der Pause zeigt der Timer „Abwesend, Zeit pausiert“.</li>
 </ul>
 
-<p><strong>Pomodoro mit Absicht</strong></p>
+<p><strong>Deine Serie geht nicht mehr verloren</strong></p>
 <ul>
- <li>„Woran arbeitest du?“. Die optionale Antwort bleibt während der ganzen Session unter dem Timer sichtbar und erscheint später im Verlauf. Aus Zeiten werden Inhalte.</li>
+  <li>Läuft deine Serie und fehlt heute noch eine Session, erinnert dich Zenbox am Abend rechtzeitig. Uhrzeit wählbar, abschaltbar.</li>
+  <li>Die Streak steht jetzt oben rechts auf dem Fokus-Screen. Ein Klick öffnet deinen Streak-Kalender.</li>
 </ul>
 
-<p><strong>Wochenziel &amp; Karenztag</strong></p>
+<p><strong>Gerettete Momente</strong></p>
 <ul>
- <li>Setz dir in den Einblicken ein Fokus-Ziel pro Woche. Mit Fortschrittsbalken und Erwähnung im Wochenrückblick.</li>
- <li>Deine Serie verzeiht jetzt einen verpassten Tag pro Woche. Eine 40-Tage-Streak stirbt nicht mehr an einem einzigen Sonntag.</li>
+  <li>Jedes Mal, wenn du den Beenden-Dialog öffnest und dann doch weitermachst, zählt Zenbox das als geretteten Moment. Du findest die Zahl in deinem Wochenrückblick.</li>
 </ul>
 
-<p><strong>Behoben</strong></p>
+<p><strong>Woran du gearbeitet hast</strong></p>
 <ul>
- <li>Apps im Vollbild konnten den Block-Hinweis ignorieren. Die Sperre greift jetzt auch dort zuverlässig.</li>
- <li>Ein ausgeschaltetes Limit sieht jetzt auch ausgeschaltet aus („blockt nicht“) statt still zu schweigen.</li>
+  <li>Das Absichts-Feld gilt jetzt für alle Sessions, nicht nur fürs Pomodoro.</li>
+  <li>Neu in den Einblicken: „Daran hast du diese Woche gearbeitet“ mit deinen Absichten und der Zeit dahinter.</li>
+</ul>
+
+<p><strong>Einstellungen neu sortiert</strong></p>
+<ul>
+  <li>Sechs klare Gruppen: Allgemein, Fokus &amp; Sessions, Mitteilungen, Kopplungen, Schutz und Weiteres.</li>
+  <li>Die Browser-Berechtigungen sind in den Schutz-Check gewandert. Ein Ort für die Frage, ob Zenbox wirklich greift.</li>
+  <li>Der strenge Modus lässt sich jetzt auch hier umschalten.</li>
+</ul>
+
+<p><strong>Beim ersten Start</strong></p>
+<ul>
+  <li>Neue Installationen scannen ihre Zenbox einmal im Onboarding. Der Puck ist der Schlüssel der App.</li>
 </ul>
 
 <p><strong>Feinschliff</strong></p>
 <ul>
- <li>Überschriften und Inhalte sitzen jetzt bereichsübergreifend auf einer Linie.</li>
- <li>Die Auswege bei erreichtem Limit sind kompakter und reagieren auf Enter.</li>
- <li>Nach diesem Update begrüßt dich einmalig eine „Was ist neu“-Seite. Auch bei künftigen Versionen.</li>
+  <li>Die Menüleiste zeigt deine heutige Fokuszeit und den Fortschritt zum Wochenziel.</li>
+  <li>Buttons, Karten und Status-Zeilen sitzen sauberer: rundes Plus in der Akzentfarbe, schlanke Status-Zeilen bei WLAN und Kalender, Steuerelemente rechtsbündig wie in den Systemeinstellungen.</li>
 </ul>
       ]]></description>
-      <enclosure url="https://github.com/freigeist89/zenbox-updates/releases/download/v1.2/Zenbox-1.2.zip"
-                 length="64351207"
+      <enclosure url="https://github.com/freigeist89/zenbox-updates/releases/download/v1.3/Zenbox-1.3.zip"
+                 length="64464243"
                  type="application/octet-stream"
-                 sparkle:edSignature="b6Hi/uMZA+0J0C4FKlSjPyJGZHE6U2gdqM66F2ORmU7CZMXKx4MbCuKkZhlt5stzeq8gqtOSi62v1PzPmbrvBA==" />
+                 sparkle:edSignature="J/MlgFqBtsV1AtuKtThYVHUCfyHrF8k3FUpPliJKxsQHIwNPwvbH5/nJCceeKsONHduo0Jj9cZmC/Nl/O0n3CQ==" />
     </item>
   </channel>
 </rss>
