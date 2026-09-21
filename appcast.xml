@@ -6,65 +6,39 @@
     <description>Updates für Zenbox</description>
     <language>de</language>
     <item>
-      <title>Version 1.3</title>
-      <pubDate>Tue, 04 Aug 2026 06:57:40 +0200</pubDate>
-      <sparkle:version>4</sparkle:version>
-      <sparkle:shortVersionString>1.3</sparkle:shortVersionString>
+      <title>Version 1.4</title>
+      <pubDate>Mon, 21 Sep 2026 14:18:22 +0200</pubDate>
+      <sparkle:version>5</sparkle:version>
+      <sparkle:shortVersionString>1.4</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
-<h3>Neu in Version 1.3</h3>
+<h3>Neu in Version 1.4</h3>
 
-<p><strong>Deine Zenbox startet Sessions</strong></p>
+<p><strong>Einstellungen, neu gedacht</strong></p>
 <ul>
-  <li>Der Start-Knopf führt jetzt auf Wunsch durch den Scan deiner physischen Zenbox: Puck vor die Kamera, Session läuft. Das gleiche Ritual wie beim Beenden.</li>
-  <li>In den Einstellungen unter „Entsperren“ abschaltbar, wenn du lieber direkt startest.</li>
+  <li>Die Einstellungen sind jetzt ein eigenes Fenster mit Menüpunkten links und Suchfeld: Tippe „passwort“ oder „kamera“ und du landest direkt in der richtigen Sektion. Öffnen über das Zahnrad in der Seitenleiste oder mit Cmd+Komma.</li>
+  <li>Neu darin: dein Profil mit Bild und Name, rein lokal. Und „Alle Daten löschen“ setzt Zenbox auf Wunsch komplett zurück, mit Bestätigung und Neustart ins Onboarding.</li>
 </ul>
 
-<p><strong>Ehrliche Fokuszeit</strong></p>
+<p><strong>Zuverlässiger denn je</strong></p>
 <ul>
-  <li>Bildschirm gesperrt oder länger als zwei Minuten untätig: Die Fokuszeit pausiert und dein Ziel schiebt sich nach hinten. Die Sperren bleiben natürlich aktiv.</li>
-  <li>So messen Wochenziel, Serie und Verlauf echte Arbeit statt Anwesenheit. Während der Pause zeigt der Timer „Abwesend, Zeit pausiert“.</li>
+  <li>Es läuft nur noch genau eine Zenbox. Bisher konnten zwei Instanzen parallel laufen (etwa nach einem Neustart), die sich nicht abgesprochen haben: Sperren wirkten wie Geister und Limit-Dialoge erschienen doppelt. Das ist vorbei.</li>
+  <li>Die Sperrseite im Browser gibt den Tab von selbst wieder frei, sobald nichts mehr blockt, und bringt dich zur ursprünglichen Seite zurück statt zur Startseite.</li>
+  <li>Der Dialog „Einmal öffnen“ bei Limits erscheint wieder ruhig und ohne Umleitungs-Karussell.</li>
 </ul>
 
-<p><strong>Deine Serie geht nicht mehr verloren</strong></p>
+<p><strong>Behoben</strong></p>
 <ul>
-  <li>Läuft deine Serie und fehlt heute noch eine Session, erinnert dich Zenbox am Abend rechtzeitig. Uhrzeit wählbar, abschaltbar.</li>
-  <li>Die Streak steht jetzt oben rechts auf dem Fokus-Screen. Ein Klick öffnet deinen Streak-Kalender.</li>
-</ul>
-
-<p><strong>Gerettete Momente</strong></p>
-<ul>
-  <li>Jedes Mal, wenn du den Beenden-Dialog öffnest und dann doch weitermachst, zählt Zenbox das als geretteten Moment. Du findest die Zahl in deinem Wochenrückblick.</li>
-</ul>
-
-<p><strong>Woran du gearbeitet hast</strong></p>
-<ul>
-  <li>Das Absichts-Feld gilt jetzt für alle Sessions, nicht nur fürs Pomodoro.</li>
-  <li>Neu in den Einblicken: „Daran hast du diese Woche gearbeitet“ mit deinen Absichten und der Zeit dahinter.</li>
-</ul>
-
-<p><strong>Einstellungen neu sortiert</strong></p>
-<ul>
-  <li>Sechs klare Gruppen: Allgemein, Fokus &amp; Sessions, Mitteilungen, Kopplungen, Schutz und Weiteres.</li>
-  <li>Die Browser-Berechtigungen sind in den Schutz-Check gewandert. Ein Ort für die Frage, ob Zenbox wirklich greift.</li>
-  <li>Der strenge Modus lässt sich jetzt auch hier umschalten.</li>
-</ul>
-
-<p><strong>Beim ersten Start</strong></p>
-<ul>
-  <li>Neue Installationen scannen ihre Zenbox einmal im Onboarding. Der Puck ist der Schlüssel der App.</li>
-</ul>
-
-<p><strong>Feinschliff</strong></p>
-<ul>
-  <li>Die Menüleiste zeigt deine heutige Fokuszeit und den Fortschritt zum Wochenziel.</li>
-  <li>Buttons, Karten und Status-Zeilen sitzen sauberer: rundes Plus in der Akzentfarbe, schlanke Status-Zeilen bei WLAN und Kalender, Steuerelemente rechtsbündig wie in den Systemeinstellungen.</li>
+  <li>Der Zenbox-Scan nutzt jetzt zuverlässig die eingebaute Kamera. Vorher griff macOS gern zur iPhone-Kamera, und das Bild blieb schwarz, wenn das iPhone nicht bereit war.</li>
+  <li>Ein Klick aufs Dock-Icon öffnet das geschlossene Hauptfenster wieder.</li>
+  <li>Im Kalender-Tab zeigt ein Termin nur noch dann ein Schloss, wenn er wirklich sperrt.</li>
+  <li>Im Onboarding startet Enter den Zenbox-Scan.</li>
 </ul>
       ]]></description>
-      <enclosure url="https://github.com/freigeist89/zenbox-updates/releases/download/v1.3/Zenbox-1.3.zip"
-                 length="64464243"
+      <enclosure url="https://github.com/freigeist89/zenbox-updates/releases/download/v1.4/Zenbox-1.4.zip"
+                 length="64592435"
                  type="application/octet-stream"
-                 sparkle:edSignature="J/MlgFqBtsV1AtuKtThYVHUCfyHrF8k3FUpPliJKxsQHIwNPwvbH5/nJCceeKsONHduo0Jj9cZmC/Nl/O0n3CQ==" />
+                 sparkle:edSignature="KgQlx3QwqTnDEI9X3Az0Mt+vB2UkKYspnRwfltwAt3AvRe4ivPAM9z48dJLfyZYAdiBS+hFGrDFSkVfOV2+WBQ==" />
     </item>
   </channel>
 </rss>
