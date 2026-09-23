@@ -7,7 +7,7 @@
     <language>de</language>
     <item>
       <title>Version 1.4</title>
-      <pubDate>Mon, 21 Sep 2026 14:18:22 +0200</pubDate>
+      <pubDate>Wed, 23 Sep 2026 16:13:55 +0200</pubDate>
       <sparkle:version>5</sparkle:version>
       <sparkle:shortVersionString>1.4</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
@@ -36,9 +36,9 @@
 </ul>
       ]]></description>
       <enclosure url="https://github.com/freigeist89/zenbox-updates/releases/download/v1.4/Zenbox-1.4.zip"
-                 length="64592435"
+                 length="64614925"
                  type="application/octet-stream"
-                 sparkle:edSignature="KgQlx3QwqTnDEI9X3Az0Mt+vB2UkKYspnRwfltwAt3AvRe4ivPAM9z48dJLfyZYAdiBS+hFGrDFSkVfOV2+WBQ==" />
+                 sparkle:edSignature="hHOXyDkXEaGCxYAkrgecQrqNO2qZajNh96yl2mt0vNcHczYp9K4tvWrLrEufhjYQVJHjnXBHKoxld8jfcDHoBg==" />
     </item>
   </channel>
 </rss>
